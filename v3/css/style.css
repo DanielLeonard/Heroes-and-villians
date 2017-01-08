@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1.3em;
+}
+
+body {
+    font-family: "FF Ernestine",monospace;
+    margin: 0;
+    padding: 0;
+    background: url(../images/noise.jpg) no-repeat;
+    background-size: cover;
+    color: #000000;
+    width: 100%;
+}
+
+/*-font-*/
+
+
+.title{font-size: 9em;
+font-family:"Boucherie Block";
+font-weight: bolder;
+line-height: 0.7em;
+color: #C79E34;
+text-shadow: 1px 1px 0px #000000,2px 2px 0px #000000;
+letter-spacing: 3px;}
+
+.title-letter{font-size: 0.7em;
+padding-left: 0.1em;}
+
+h1{font-size: 3.998em;
+text-align: center;
+font-family:
+}
+
+h2{font-size: 2.827em;
+text-align: center;
+font-family: "Boucherie Block";
+padding-top: 1em;
+}
+
+h3{font-size: 4em;
+text-align: center;
+margin-bottom: 1em;
+font-family: "Boucherie Block";
+font-weight: 600;}
+
+h4{font-size: 1.414em;
+text-align: center;}
+
+p{font-size: 1.3em;
+text-align: left;
+    line-height: 1.3em;
+padding-top: 1.3em;
+font-weight: 600;}
+
+a{text-decoration: underline;
+color: #000000;}
+
+.dropcap{float: left;
+  color: #000000;
+  font-size: 90px;
+  line-height: 60px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 0px;
+  font-family: "FF Ernestine";}
+
+.block-holder{margin-top: 3em;
+margin-top: 3em;}
+
+
+
+blockquote{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding-top: 1em;
+font-size:  2.4em;
+font-style: oblique;
+font-weight: 700;
+padding-bottom: 1em;
+margin-bottom: 1em;
+}
+
+cite{
+  padding-top: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+hr{display: block;
+margin-left: auto;
+margin-right: auto;
+width: 10em;
+background: #000000;
+border-style: none;
+height: 1px;
+margin-bottom: 1em;}
+
+/* NOTE: nav */
+
+.tidynav {
+    height: 60px;
+    display: flex;
+    flex-flow: center;
+    position: fixed;
+    width: 100%;
+  background: #ffffff;
+    z-index: 99;
+    top: 0px;
+     box-shadow: 0px 10px 10px 3px rgba(0,0,0,0.4)
+}
+
+.leftnav {
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    border-left-style: solid;
+      border-right-style: solid;
+    border-width: 1%;
+    border-color: transparent;
+    padding-top: 10px;
+}
+
+.leftnav:hover{ border-left-style: solid;
+    border-right-style: solid;
+border-width: 1%;
+border-color: #111111;
+color: #ffce00;}
+
+.navlink {
+    font-weight: 500;
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+color: #000000;
+font-weight: 600;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+    text-decoration: none;
+}
+
+/*-header-*/
+
+.vingal {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  background: url(../images/film.jpg);
+  background-size: cover;
+position: fixed;
+width: 100%;
+opacity: 0.2;}
+
+header{
+  padding-top: 2em;
+  height: 600px;
+  background: darkred;
+
+
+}
+
+
+.headertext{
+padding-top: 190px;
+
+font-weight: 400;
+}
+
+
+/*-footer-*/
+
+footer{
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 0.7em;
+}
+
+/*-sections-*/
+
+.pre-child{height: auto;
+margin-top: 3em;
+padding-bottom: 1em;
+padding-left: 15%;
+padding-right: 15%;
+opacity: 0;}
+
+.pre-child-show{height: auto;
+margin-top: 3em;
+padding-bottom: 1em;
+padding-left: 15%;
+padding-right: 15%;
+animation-name: appear;
+animation-fill-mode: forwards;
+animation-duration: 3s;}
+
+@keyframes appear {
+
+0% {transform: translateX(-10px);}
+
+  100%{opacity: 1.0;
+  transform: translateX(0px);}
+
+}
+
+.pause{height: 90vh;
+text-align: center;
+background: url(../images/brickwall.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+z-index: 999;
+margin-top: 2em;}
+
+.pause-title{font-size: 7em;
+  padding-top: 37.5vh;
+font-family:"Boucherie Block";
+font-weight: normal;
+color: #000000;
+letter-spacing: 3px;}
+
+.container-1{ padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  padding-bottom: 2em;}
+
+.child{height: auto;
+  width: 40%;
+margin-top: 3em;
+padding-bottom: 1em;
+padding-left: 5%;
+padding-right: 5%;
+
+}
+
+
+/*-IMG-*/
+
+img{width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-top-style: solid;
+border-bottom-style: solid;
+border-width: 3px;
+padding-top: 1em;
+padding-bottom: 1em;
+margin-bottom: 3em;
+border-radius: 1px;}
+
+@media only screen and (max-width: 1000px) {
+
+.child{width: 100%;}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.pre-child{padding-left: 5%;
+padding-right: 5%;}
+
+footer{padding-left: 5%;
+padding-right: 5%;}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .title{font-size: 4em;
+  font-family:"Boucherie Block";
+  font-weight: bolder;
+  line-height: 0.7em;
+  color: #C79E34;
+  text-shadow: 1px 1px 0px #000000,2px 2px 0px #000000;
+  letter-spacing: 3px;}
+
+  .title-letter{font-size: 0.7em;
+  padding-left: 0.1em;}
+
+  p{font-size: 1em;}
+
+  blockquote{font-size: 1.6em;}
+
+  cite{font-size: 1em;}
+
+  .navlink{font-size: 0.8em;}
+
+
+}
